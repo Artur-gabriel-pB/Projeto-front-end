@@ -1,0 +1,142 @@
+body{
+  background: rgb(255, 255, 255);
+}
+.receitas{
+  background-image:url(/imagens/174758609-conjunto-de-pessoas-cozinhando-refeições-na-cozinha-em-casa-homem-e-mulher-felizes-preparando.jpg);
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  padding-top: 70px;
+  margin: 0;
+}
+
+.menu{
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  padding-bottom: 70px;
+  padding-top: 1px;
+}
+.menu a {
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-left: 90px;
+  margin-top: 10px; 
+
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  display:flex;
+  list-style-type: none;
+  font-size: 20px;
+  position: fixed;
+  text-transform: uppercase;
+  background:rgb(110, 84, 43);
+  padding-top: 17px;
+  padding-right:100% ;
+  
+  
+}
+.categorias{
+  margin: 30px;
+  padding: 0;
+  height: 50px;
+  padding-bottom: 70px;
+  padding-top: 1px;
+}
+.categorias a {
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-left: 90px;
+  margin-top: 10px; 
+  color: black;
+}
+.categorias ul{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  display:flex;
+  list-style-type: none;
+  font-size: 20px;
+
+  text-transform: uppercase;
+  padding-top: 17px;
+  padding-left:10%;
+}
+.menu a:hover{
+  color: rgba(4, 4, 4, 0.9);
+}
+.categorias a:hover{
+  background: rgba(4, 4, 4, 0.4);
+  
+}
+
+h2{
+  padding-left: 20px;
+  background-color: rgb(4, 3, 35);
+  padding-top: 10px;
+  margin: 0;
+  color: aliceblue;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-radius: 5px ;
+  
+}
+h3{
+  padding-left: 20px;
+  background: rgb(255, 149, 0);
+  text-transform: uppercase;
+  width: 70%;
+  border-radius: 5px ;
+  -webkit-text-stroke: 1px;
+}
+h4{
+  padding-left: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: rgb(255, 194, 102);
+  width: 50%;
+  border-radius: 5px ;
+  
+}
+ul{
+  padding-left: 60px;
+  
+}
+p{
+  margin-left: 20px;
+  font-size: 18px;
+}
+.imge{
+  height: 100px;
+  width: 10%;
+}
+.ingredientes{
+  background: rgb(208, 208, 200);
+  width: 30%;
+  border-radius: 5px;
+  
+}
+.ima{
+  margin: 20px ;
+  border-radius: 10px;
+}
+#rodape {
+  height: 90px;
+  background: rgb(110, 84, 43);
+  display:flex;
+  font-size: 50px;
+  padding-top: 30px;
+  color: aliceblue;
+
+}
+.email{ 
+  margin-right: 300px;
+}
+.numero{
+  margin-left: 300px;
+}
